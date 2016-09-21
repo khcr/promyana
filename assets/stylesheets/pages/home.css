@@ -2,7 +2,8 @@ section#home .banner {
   background: url("../../images/layout/home/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: center top;
+  background-position: center center;
+  background-attachment: fixed;
   height: 100vh;
   flex-grow: 12;
   display: flex;
@@ -12,12 +13,12 @@ section#home .banner {
 }
 
 section#home h1 {
-  border: 3px solid #f0f0f0;
+  border: 5px solid #f0f0f0;
   font-size: 4em;
   text-align: center;
   color: #f0f0f0;
   padding: 20px 40px 20px 40px;
-  font-weight: 300;
+  font-weight: 400;
 }
 
 section#home .banner img {
