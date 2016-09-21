@@ -1,0 +1,12 @@
+section#home .banner {
+  background: url("../../images/layout/home/banner.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  flex-grow: 5;
+}
+
+section#home {
+  display: flex;
+}

@@ -1,0 +1,9 @@
+section#stories {
+  background: url("../../../images/layout/home/stories.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 100vh;
+  color: white;
+  font-size: 2em;
+}
