@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
-  border-left: 1px solid white;
+  border-left: 1px solid #f0f0f0;
 }
 
 header nav {
@@ -16,10 +16,14 @@ header nav {
 
 header nav a {
   text-decoration: none;
-  color: white;
+  color: #BABABA;
   padding: 10px;
   font-size: 1.2em;
   text-transform: uppercase;
+}
+
+header nav a:hover {
+  color: #f0f0f0;
 }
 
 header nav img {
@@ -39,4 +43,11 @@ header .logo {
 header .donate {
   padding: 8px 16px;
   margin-bottom: 10px;
+  color: #BABABA;
+  border: 1px solid #BABABA;
+  background-color: transparent !important;
+}
+
+header .donate:hover {
+  color: #f0f0f0;
 }

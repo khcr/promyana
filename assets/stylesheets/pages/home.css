@@ -1,5 +1,5 @@
 section#home .banner {
-  background: url("../../images/layout/home/banner.jpg");
+  background: url("../../images/layout/home/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
@@ -12,10 +12,10 @@ section#home .banner {
 }
 
 section#home h1 {
-  border: 2px solid white;
+  border: 3px solid #f0f0f0;
   font-size: 4em;
   text-align: center;
-  color: white;
+  color: #f0f0f0;
   padding: 20px 40px 20px 40px;
   font-weight: 300;
 }

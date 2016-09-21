@@ -4,7 +4,7 @@ section#stories {
   background-size: cover;
   background-position: center bottom;
   height: 100vh;
-  color: white;
+  color: #f0f0f0;
   align-items: center;
 }
 
@@ -13,6 +13,7 @@ section#stories .button {
 }
 
 section#stories .verse p {
+  margin-bottom: 10px;
   font-size: 2em;
   font-style: italic;
   width: 50%;
