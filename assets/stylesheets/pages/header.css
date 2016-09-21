@@ -4,7 +4,7 @@ header {
   flex-direction: column;
   flex-grow: 1;
   align-items: center;
-  border-left: 1px solid #cb7835
+  border-left: 1px solid white;
 }
 
 header nav {
@@ -27,11 +27,16 @@ header nav img {
 }
 
 header .logo {
-  width: 60%;
+  width: 80%;
   flex-basis: 100px;
   background: url("../../images/layout/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
   flex-grow: 1;
+}
+
+header .donate {
+  padding: 8px 16px;
+  margin-bottom: 10px;
 }

@@ -3,6 +3,27 @@ section#home .banner {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 70vh;
-  flex-grow: 9;
+  height: 100vh;
+  flex-grow: 12;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section#home h1 {
+  border: 2px solid white;
+  font-size: 4em;
+  text-align: center;
+  color: white;
+  padding: 20px 40px 20px 40px;
+  font-weight: 300;
+}
+
+section#home .banner img {
+  width: 48px;
+}
+
+section#home .banner img:hover {
+  cursor: pointer;
 }

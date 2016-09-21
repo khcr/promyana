@@ -4,6 +4,7 @@
 @import 'base/normalize.css';
 @import 'base/reset.css';
 
+@import 'components/button.css';
 @import 'components/section.css';
 
 @import 'pages/home.css';

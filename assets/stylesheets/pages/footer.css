@@ -14,8 +14,12 @@ footer .columns {
   display: flex;
 }
 
-footer .column {
+footer .column.first, footer .column.second {
   flex: 1;
+}
+
+footer .column.third {
+  flex: 2;
 }
 
 footer .sitemap {

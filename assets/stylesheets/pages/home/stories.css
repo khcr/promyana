@@ -5,13 +5,19 @@ section#stories {
   background-position: center bottom;
   height: 100vh;
   color: white;
-  font-size: 2em;
-
   align-items: center;
 }
 
-section#stories .verse {
+section#stories .button {
+  margin-top: 30px;
+}
+
+section#stories .verse p {
+  font-size: 2em;
   font-style: italic;
-  margin-left: 40px;
   width: 50%;
+}
+
+section#stories .verse {
+  margin-left: 60px;
 }
