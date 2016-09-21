@@ -1,0 +1,37 @@
+/* Style */
+section#aboutus p{
+ padding-top: 20px;
+ text-align: justify;
+}
+
+section#aboutus h2{
+	padding: 20px;
+}
+
+section#aboutus ul{
+	
+}
+
+/* Positioning */
+section#aboutus .mission p{
+
+}
+
+section#aboutus .mission h2{
+	
+}
+
+section#aboutus .conditions p{
+
+}
+
+section#aboutus .conditions h2{
+
+}
+
+section#aboutus img{
+	border: solid grey 1px;
+	max-width: 200px;
+	max-height: 300px;
+	margin: 20px;
+}
