@@ -4,5 +4,5 @@ section#home .banner {
   background-size: cover;
   background-position: center top;
   height: 70vh;
-  flex-grow: 8;
+  flex-grow: 9;
 }
