@@ -3,3 +3,12 @@ html, body {
   font-weight: 300;
   height: 100%;
 }
+
+.newline {
+  white-space: pre-line;
+}
+
+h3 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}

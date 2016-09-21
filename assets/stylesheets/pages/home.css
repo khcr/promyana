@@ -3,10 +3,6 @@ section#home .banner {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center top;
-  height: 100vh;
-  flex-grow: 5;
-}
-
-section#home {
-  display: flex;
+  height: 70vh;
+  flex-grow: 8;
 }

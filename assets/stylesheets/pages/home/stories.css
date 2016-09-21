@@ -6,4 +6,12 @@ section#stories {
   height: 100vh;
   color: white;
   font-size: 2em;
+
+  align-items: center;
+}
+
+section#stories .verse {
+  font-style: italic;
+  margin-left: 40px;
+  width: 50%;
 }
