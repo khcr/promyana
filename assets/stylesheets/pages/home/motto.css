@@ -4,6 +4,7 @@ section#motto {
   color: #f0f0f0;
   flex-direction: column;
   align-items: center;
+  margin-top: 100vh;
 }
 
 section#motto p {
