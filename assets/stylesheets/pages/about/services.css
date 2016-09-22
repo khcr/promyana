@@ -1,0 +1,13 @@
+section#services {
+	padding: 20px;
+	background-color: red;
+	display: flex;
+}
+
+section#services p{
+	background-color: blue;
+	padding: 10px;
+	margin: 20px;
+	justify-content:center;
+	align-content: space-around;
+}

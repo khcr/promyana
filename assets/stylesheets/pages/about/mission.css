@@ -1,20 +1,38 @@
 /* Style */
+section#aboutus{
+	display:flex;
+	flex-direction: column;
+}
+
 section#aboutus p{
- padding-top: 20px;
+ margin: 20px;
  text-align: justify;
 }
 
 section#aboutus h2{
-	padding: 20px;
+	margin:  20px;
 }
 
 section#aboutus ul{
-	
+	padding: 20px;
+	background-color: blue;
+	list-style-image: url("")
 }
 
 /* Positioning */
+section#aboutus .mission{
+	flex-direction:row;
+	background-color: red;
+}
+section#aboutus .conditions{
+	flex-direction:row;
+	background-color: yellow;
+
+}
+
 section#aboutus .mission p{
 
+	background-color: green;
 }
 
 section#aboutus .mission h2{
@@ -31,7 +49,9 @@ section#aboutus .conditions h2{
 
 section#aboutus img{
 	border: solid grey 1px;
-	max-width: 200px;
-	max-height: 300px;
+	max-width: 20%;
+	min-width: 120px;
+	max-height: auto;
 	margin: 20px;
+
 }
