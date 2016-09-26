@@ -9,3 +9,11 @@ section#mission .column:nth-child(2) {
 section#mission .column:first-child img {
 	width:100%;
 }
+
+section#mission h2 {
+	margin-top: 30px;
+}
+
+section#mission .illustration {
+	padding: 10px 50px 10px 0;
+}

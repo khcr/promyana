@@ -1,3 +1,5 @@
 section#services .content {
   justify-content: space-between;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }

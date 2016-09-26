@@ -5,9 +5,19 @@ section#conditions .row {
 
 section#conditions .content {
   flex-direction: column;
+
 }
 
 section#conditions ul {
-    list-style-image: url('../../../images/icon/next-red.png');
-    list-style-position: inside;
+  list-style-image: url('../../../images/icon/next-red.png');
+  list-style-position: inside;
+}
+
+section#conditions ul li {
+  padding: 10px 0 10px 30px;
+}
+
+section#conditions p.hangs {
+  font-size: 1.2em;
+  margin-top: 0;
 }
