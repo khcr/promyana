@@ -1,0 +1,17 @@
+section#story-banner {
+  background: url("../../../images/layout/stories/giovanni.jpg");
+  height: 400px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  align-items: center;
+}
+
+section#story-banner h2 {
+  border: 5px solid #f0f0f0;
+  font-size: 3em;
+  text-align: center;
+  color: #f0f0f0;
+  padding: 20px 40px 20px 40px;
+  font-weight: 400;
+}

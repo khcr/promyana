@@ -5,3 +5,7 @@ section#mission .column:first-child {
 section#mission .column:nth-child(2) {
 	flex: 3;
 }
+
+section#mission .column:first-child img {
+	width:100%;
+}

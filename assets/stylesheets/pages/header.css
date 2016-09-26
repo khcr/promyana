@@ -32,12 +32,11 @@ header nav img {
 
 header .logo {
   width: 60%;
-  flex-basis: 50px;
   background: url("../../images/layout/logo.png");
   background-position: center;
   background-size: contain;
   background-repeat: no-repeat;
-  flex-grow: 1;
+  flex: 1;
 }
 
 header .donate {

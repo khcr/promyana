@@ -1,0 +1,17 @@
+section#stories .columns {
+  display: flex;
+}
+
+section#stories .content {
+  display: flex;
+  flex-direction: column;
+}
+
+section#stories video {
+  max-width: 500px;
+  width: 100%;
+}
+
+section#stories .column {
+  flex: 1;
+}
