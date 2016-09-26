@@ -3,11 +3,6 @@ html, body {
   font-weight: 300;
   height: 100%;
 }
-
-.newline {
-  white-space: pre-line;
-}
-
 h1, h2, h3, h4, h5 {
   font-family: 'Raleway', Arial, sans-serif;
 }
@@ -15,4 +10,10 @@ h1, h2, h3, h4, h5 {
 h3 {
   margin-top: 30px;
   margin-bottom: 10px;
+}
+
+/* Utils */
+
+.newline {
+  white-space: pre-line;
 }

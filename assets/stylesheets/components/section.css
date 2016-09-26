@@ -1,5 +1,16 @@
 section {
   display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+section .content {
+  width: 1000px;
+  display: flex;
+}
+
+section {
+  background-color: #f0f0f0;
 }
 
 #container > section:nth-child(2) {

@@ -48,7 +48,7 @@ footer .column:first-child img {
 
 footer .logo {
   width: 100%;
-  flex-basis: 130px;
+  flex-basis: 120px;
   background: url("../../images/layout/logo.png");
   background-position: center;
   background-size: contain;

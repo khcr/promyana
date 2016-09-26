@@ -1,0 +1,13 @@
+section#conditions .row {
+  display: flex;
+  justify-content: space-between;
+}
+
+section#conditions .content {
+  flex-direction: column;
+}
+
+section#conditions ul {
+    list-style-image: url('../../../images/icon/next-red.png');
+    list-style-position: inside;
+}
