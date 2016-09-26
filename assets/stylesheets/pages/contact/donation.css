@@ -1,5 +1,5 @@
 section#donation {
-  background: url("../../../images/layout/contact/picture2.png"), url("../../../images/layout/contact/pattern_cubes.png");
+  background: url("../../../images/layout/contact/picture2.png"), url("../../../images/layout/contact/pattern_cubes_25.png");
   background-position: center center, center center;
   background-attachment: scroll, fixed;
   background-repeat: no-repeat, repeat;
@@ -21,6 +21,11 @@ section#donation form img {
   width: 200px;
 }
 
-section#donation h2 {
+section#donation h2, section#donation .row {
   align-self: center;
+}
+
+section#donation .row img {
+  padding: 10px 60px;
+  width: 90px;
 }

@@ -1,5 +1,5 @@
 section#contact {
-  background: url("../../../images/layout/contact/picture1.png"), url("../../../images/layout/contact/pattern_cubes.png");
+  background: url("../../../images/layout/contact/picture1.png"), url("../../../images/layout/contact/pattern_cubes_25.png");
   background-position: center center, center center;
   background-attachment: scroll, fixed;
   background-repeat: no-repeat, repeat;
@@ -16,4 +16,25 @@ section#contact form {
   display: flex;
   flex-direction: column;
   width: 60%;
+}
+
+section#contact h2 {
+  border: 3px solid #f0f0f0;
+  padding: 20px 30px;
+}
+
+section#contact form label {
+  padding: 30px 0 5px 0;
+  font-size: 1.2em;
+  font-weight: 500;
+}
+
+section#contact form input {
+  height: 30px;
+}
+
+section#contact form input[type=submit] {
+  height: inherit;
+  width: 40%;
+  align-self: center;
 }

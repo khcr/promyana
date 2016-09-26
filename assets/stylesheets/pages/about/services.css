@@ -3,3 +3,42 @@ section#services .content {
   margin-top: 60px;
   margin-bottom: 60px;
 }
+
+section#services .sleep {
+  background: url("../../../images/icon/services/bed.png");
+}
+
+section#services .shower {
+  background: url("../../../images/icon/services/shower.png");
+}
+
+section#services .food {
+  background: url("../../../images/icon/services/restaurant.png");
+}
+
+section#services .washing {
+  background: url("../../../images/icon/services/washing-machine.png");
+}
+
+section#services .content p {
+  margin: 0;
+  color: white;
+  font-weight: 500;
+  font-size: 1.2em;
+}
+
+section#services .content .text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background-color: #303030;
+  border-radius: 90px;
+  opacity: 0;
+  width: 170px;
+  height: 170px;
+}
+
+section#services .content .text:hover {
+  opacity: .75;
+}
