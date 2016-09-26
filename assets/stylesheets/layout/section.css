@@ -19,3 +19,11 @@ section {
 #container > section:nth-child(2) {
   margin-top: 100vh;
 }
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  #container > section:nth-child(2) {
+    margin-top: inherit;
+  }
+}

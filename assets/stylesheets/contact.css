@@ -6,7 +6,8 @@
 @import 'base/reset.css';
 
 @import 'components/button.css';
-@import 'components/section.css';
+
+@import 'layout/section.css';
 
 @import 'pages/contact/contact.css';
 @import 'pages/contact/map.css';

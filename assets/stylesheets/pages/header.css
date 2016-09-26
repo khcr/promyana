@@ -50,3 +50,11 @@ header .donate {
 header .donate:hover {
   color: #f0f0f0;
 }
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  header {
+    display: none;
+  }
+}

@@ -35,3 +35,11 @@ section#home .banner img {
 section#home .banner img:hover {
   cursor: pointer;
 }
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  section#home {
+    position: inherit;
+  }
+}
