@@ -1,0 +1,7 @@
+section#donation .content {
+  flex-direction: column;
+}
+
+section#donation h2 {
+  align-self: center;
+}

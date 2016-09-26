@@ -1,0 +1,7 @@
+section#map .column {
+  flex: 1;
+}
+
+section#map p {
+  font-size: 1.2em;
+}

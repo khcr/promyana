@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Промяна</title>
+	<link href="assets/stylesheets/contact.css" rel="stylesheet" type="text/css">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+	<meta charset="utf-8">
+</head>
+
+<body>
+
+	<div id="container">
+
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="stories.html">Stories</a>
+        <a href="contact.html">Find us</a>
+      </nav>
+    </header>
+
+    <section id="contact">
+      <div class="content">
+        <h2>Contact</h2>
+        <form>
+          <label for="firstname">Firstname</label>
+          <input type="text" id="firstname">
+          <label for="lastname">Lastname</label>
+          <input type="text" id="lastname">
+          <label for="email">Email</label>
+          <input type="email" id="email">
+          <label for="phone">Phone number</label>
+          <input type="number" id="phone">
+          <label for="message">Message</label>
+          <textarea rows="10" id="message"></textarea>
+        </form>
+      </div>
+    </section>
+
+    <section id="map">
+      <div class="content">
+        <div class="column">
+          <h2>Find us</h2>
+          <p class="newline">
+            Център „Промяна“
+            ул. Иван Вазов 13А
+            5100 Горна Оряховица
+            тел. 0878 777 633
+          </p>
+        </div>
+        <div class="column">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d11769.123289862931!2d25.682927298389878!3d43.12661792640731!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x40a929171c49735b%3A0x44221762f95e26b9!2sul.+%22Ivan+Vazov%22+13%2C+5100+Gorna+Oryahovitsa%2C+Bulgaria!5e1!3m2!1sfr!2sch!4v1474894651999" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>        </div>
+      </div>
+    </section>
+
+    <section id="donation">
+      <div class="content">
+        <h2>Support us</h2>
+        <h3>Donation</h3>
+        <p class="newline">
+          Фондация Алфа България
+          UniCredit Bulbank
+          BIC: UNCRBGSF
+          IBAN: BG96UNCR70001522019522
+        </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="AFBVPX9BUCRNE">
+          <img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Credit Card Badges">
+          <input type="submit" value="donate now" class="button" name="submit" alt="PayPal - The safer, easier way to pay online!">
+        </form>
+        <h3>Other possibilities</h3>
+        <p>
+          Ако можете да ни помогнете с храна и дрехи или сте в състояние да подсигурите работа за някой човек, можете да се свържете с нас.
+        </p>
+      </div>
+    </section>
+
+	</div>
+
+	<!-- Footer -->
+	<footer>
+    <div class="content">
+      <div class="columns">
+        <div class="column">
+          <div class="logo"></div>
+          <h3>Contact</h3>
+          <img src="assets/images/icon/book.png">
+          <p>
+            Център „Промяна“<br>
+            ул. Иван Вазов 13А<br>
+            5100 Горна Оряховица<br>
+            тел. 0878 777 633
+          </p>
+        </div>
+        <div class="column">
+          <h3><img src="assets/images/icon/next-red.png"> Promyana</h3>
+          <p>
+            Фондация Алфа България е регистрирана с решение № 144/2009 г. на Великотърновския окръжен съд и е вписана в Централния регистър на юридическите лица с нестопанска цел за осъществяване на общественополезна дейност към Министерство на правосъдието на Република България, под № 20100111001.
+          </p>
+
+          <h3><img src="assets/images/icon/next-red.png"> Sitemap</h3>
+          <div class="sitemap">
+            <a href="index.html">Home</a>
+            <a href="about.html">About us</a>
+            <a href="stories.html">Stories</a>
+            <a href="contact.html">Find us</a>
+          </div>
+        </div>
+      </div>
+      <div class="arrow">
+        <a data-scroll href="#home"><img src="assets/images/icon/arrows-red.png"></a>
+      </div>
+    </div>
+  </footer>
+  <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
+
+</body>
+</html>
