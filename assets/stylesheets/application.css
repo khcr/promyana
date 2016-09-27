@@ -9,11 +9,12 @@
 @import 'components/caption.css';
 
 @import 'layout/section.css';
+@import 'layout/home.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/crossheader.css';
 
-@import 'pages/home.css';
 @import 'pages/home/verse.css';
-@import 'pages/header.css';
-@import 'pages/footer.css';
 
 @import 'pages/about/mission.css';
 @import 'pages/about/services.css';

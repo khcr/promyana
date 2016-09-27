@@ -1,0 +1,9 @@
+/* Crossheader */
+
+header.cross nav {
+  flex-direction: row;
+}
+
+header.cross nav a {
+  padding: 10px 40px;
+}

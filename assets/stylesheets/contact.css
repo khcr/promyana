@@ -8,6 +8,10 @@
 @import 'components/button.css';
 
 @import 'layout/section.css';
+@import 'layout/home.css';
+@import 'layout/header.css';
+@import 'layout/footer.css';
+@import 'layout/crossheader.css';
 
 @import 'pages/contact/contact.css';
 @import 'pages/contact/map.css';

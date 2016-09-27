@@ -18,3 +18,13 @@ section#verse .verse p {
 section#verse .verse {
   margin-left: 60px;
 }
+
+@media (max-width: 600px) {
+
+  section#verse .verse p {
+    font-size: 1.2em;
+    font-style: italic;
+    width: 80%;
+  }
+
+}

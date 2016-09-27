@@ -2,25 +2,6 @@
   margin-top: inherit;
 }
 
-/* header */
-
-header {
-  background-color: #444444;
-}
-
-header nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-header nav a {
-  color: #f0f0f0;
-  text-decoration: none;
-  padding: 10px 40px;
-  font-size: 1.2em;
-}
-
 /* Text */
 
 #container h2 {
