@@ -16,14 +16,10 @@ section {
   background-color: #f0f0f0;
 }
 
-#container > section:nth-child(2) {
-  margin-top: 100vh;
-}
-
-/* Mobile */
-
-@media (max-width: 600px) {
-  #container > section:nth-child(2) {
-    margin-top: inherit;
+@media (max-width: 1000px)
+{
+  section .content {
+    padding-left: 10px;
+    padding-right: 10px;
   }
 }

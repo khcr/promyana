@@ -38,3 +38,9 @@ section#contact form input[type=submit] {
   width: 40%;
   align-self: center;
 }
+
+@media (max-width: 500px) {
+  section#contact form {
+    width: 90%;
+  }
+}

@@ -54,7 +54,7 @@ header .donate:hover {
 /* Mobile */
 
 @media (max-width: 600px) {
-  header {
+  section#home header {
     display: none;
   }
 }

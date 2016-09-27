@@ -3,6 +3,7 @@ section#history .content {
 }
 
 section#history video {
+	width: 100%;
 	max-width: 640px;
 	align-self: center;
 }

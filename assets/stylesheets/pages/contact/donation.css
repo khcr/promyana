@@ -31,7 +31,14 @@ section#donation .bank {
   text-align: center;
 }
 
+section#donation .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
 section#donation .row img {
-  padding: 10px 60px;
+  padding: 20px 60px;
   width: 90px;
+  height: 100%;
 }

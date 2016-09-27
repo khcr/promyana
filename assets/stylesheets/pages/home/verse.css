@@ -19,12 +19,20 @@ section#verse .verse {
   margin-left: 60px;
 }
 
-@media (max-width: 600px) {
+@media (max-width: 650px) {
 
   section#verse .verse p {
     font-size: 1.2em;
     font-style: italic;
     width: 80%;
+  }
+
+}
+
+@media (max-width: 500px) {
+
+  section#verse .verse {
+    margin-left: 10px;
   }
 
 }

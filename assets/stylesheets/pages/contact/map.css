@@ -1,3 +1,8 @@
+section#map .content {
+  flex-wrap: wrap;
+}
+
 section#map .column {
   flex: 1;
+  min-width: 300px;
 }

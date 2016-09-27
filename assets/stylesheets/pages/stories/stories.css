@@ -32,3 +32,23 @@ section#stories h3 {
 section#stories p {
   margin-bottom: 0;
 }
+
+@media (max-width: 800px) {
+  section#stories .columns {
+    flex-direction: column;
+  }
+
+  section#stories .columns:first-child {
+    flex-direction: column-reverse;
+  }
+
+  section#stories .column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  section#stories .video {
+    padding: 20px 0 0 0 !important;
+  }
+}

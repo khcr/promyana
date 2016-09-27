@@ -35,6 +35,10 @@ section#home .banner img:hover {
   cursor: pointer;
 }
 
+section.second {
+  margin-top: 100vh;
+}
+
 /* Banners */
 
 section.index .banner {
@@ -55,6 +59,10 @@ section.about .banner {
 @media (max-width: 600px) {
   section#home {
     position: inherit;
+  }
+
+  section.second {
+    margin-top: inherit;
   }
 }
 
