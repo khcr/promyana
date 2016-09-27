@@ -1,10 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Промяна</title>
-  <link href="assets/stylesheets/application.css" rel="stylesheet" type="text/css">
-  <meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
-  <meta charset="utf-8">
+	<title>Промяна</title>
+	<link href="assets/stylesheets/contact.css" rel="stylesheet" type="text/css">
+	<meta name='viewport' content='width=device-width, initial-scale=1.0, maximum-scale=1.0'>
+	<meta charset="utf-8">
   <link rel="apple-touch-icon" sizes="57x57" href="assets/images/favicon/apple-icon-57x57.png">
   <link rel="apple-touch-icon" sizes="60x60" href="assets/images/favicon/apple-icon-60x60.png">
   <link rel="apple-touch-icon" sizes="72x72" href="assets/images/favicon/apple-icon-72x72.png">
@@ -26,44 +26,48 @@
 
 <body>
 
-  <div id="container">
+	<div id="container">
 
-    <!-- Banner -->
-    <section id="home" class="index">
-      <div class="banner"><h1>Промяна</h1><a href="#motto" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
-      <header>
-        <div class="logo"></div>
-        <nav>
-          <a href="index.html"><img src="assets/images/icon/next-red.png"> Home</a>
-          <a href="about.html"><img src="assets/images/icon/next-red.png"> About us</a>
-          <a href="stories.html"><img src="assets/images/icon/next-red.png"> Stories</a>
-          <a href="contact.html"><img src="assets/images/icon/next-red.png"> Find us</a>
-        </nav>
-        <a href="donation.html" class="button donate">Donate</a>
-      </header>
-    </section>
+    <header>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About us</a>
+        <a href="stories.html">Stories</a>
+        <a href="contact.html">Find us</a>
+      </nav>
+    </header>
 
-    <section id="motto" class="caption">
-      <p>Everyone deserve dignity</p>
-      <a href="about.html" class="button">Learn more about us</a>
-    </section>
-
-    <section id="verse">
-      <div class="verse">
-        <p>
-          « So in everything, do to others what you would have them do to you, for this sums up the Law and the Prophets. »
+    <section id="donation">
+      <div class="content">
+        <h2>Support us</h2>
+        <p class="newline bank">
+          Фондация Алфа България
+          UniCredit Bulbank
+          BIC: UNCRBGSF
+          IBAN: BG96UNCR70001522019522
         </p>
+        <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+          <input type="hidden" name="cmd" value="_s-xclick">
+          <input type="hidden" name="hosted_button_id" value="AFBVPX9BUCRNE">
+          <input type="submit" value="donate now" class="button" name="submit" alt="PayPal - The safer, easier way to pay online!">
+					<img src="https://www.paypalobjects.com/webstatic/en_US/i/buttons/cc-badges-ppmcvdam.png" alt="Credit Card Badges">
+        </form>
+        <h3>Other possibilities</h3>
         <p>
-          The Bible, Matthew 7:12
+          Ако можете да ни помогнете с храна и дрехи или сте в състояние да подсигурите работа за някой човек, можете да се свържете с нас.
         </p>
-        <a href="stories.html" class="button">Discover the stories</a>
+				<div class="row">
+					<img src="assets/images/icon/donation/food.png">
+					<img src="assets/images/icon/donation/clothes.png">
+					<img src="assets/images/icon/donation/people.png">
+				</div>
       </div>
     </section>
 
-  </div>
+	</div>
 
-  <!-- Footer -->
-  <footer>
+	<!-- Footer -->
+	<footer>
     <div class="content">
       <div class="columns">
         <div class="column">
@@ -93,5 +97,6 @@
   </footer>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
+
 </body>
 </html>

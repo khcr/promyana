@@ -4,6 +4,8 @@ section#donation {
   background-attachment: scroll, fixed;
   background-repeat: no-repeat, repeat;
   background-size: cover, auto;
+  padding-top: 30px;
+  padding-bottom: 60px;
 }
 
 section#donation .content {
