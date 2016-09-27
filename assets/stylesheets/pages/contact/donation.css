@@ -25,6 +25,10 @@ section#donation h2, section#donation .row {
   align-self: center;
 }
 
+section#donation .bank {
+  text-align: center;
+}
+
 section#donation .row img {
   padding: 10px 60px;
   width: 90px;
