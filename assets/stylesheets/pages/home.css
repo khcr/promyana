@@ -7,7 +7,6 @@ section#home {
 }
 
 section#home .banner {
-  background: url("../../images/layout/home/banner.png");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center center;
@@ -35,6 +34,17 @@ section#home .banner img {
 section#home .banner img:hover {
   cursor: pointer;
 }
+
+/* Banners */
+
+section.index .banner {
+  background: url("../../images/layout/home/banner.png");
+}
+
+section.stories .banner {
+  background: url("../../images/layout/stories/banner.jpg");
+}
+
 
 /* Mobile */
 
