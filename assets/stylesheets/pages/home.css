@@ -45,6 +45,10 @@ section.stories .banner {
   background: url("../../images/layout/stories/banner.jpg");
 }
 
+section.about .banner {
+  background: url("../../images/layout/about/banner.jpg");
+}
+
 
 /* Mobile */
 
