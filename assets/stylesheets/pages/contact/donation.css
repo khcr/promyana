@@ -42,3 +42,8 @@ section#donation .row img {
   width: 90px;
   height: 100%;
 }
+
+section#donation p.legal {
+  font-size: 0.8em;
+  margin-top: 60px;
+}

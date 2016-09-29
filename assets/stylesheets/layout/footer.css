@@ -19,6 +19,7 @@ footer .columns {
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
+  align-items: flex-end;
 
   padding-bottom: 30px;
 }
@@ -51,7 +52,7 @@ footer .column:first-child img {
 
 footer .logo {
   width: 100%;
-  flex-basis: 80px;
+  flex-basis: 100px;
   background: url("../../images/layout/logo.png");
   background-position: center;
   background-size: contain;
