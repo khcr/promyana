@@ -11,3 +11,14 @@
 #container p {
   font-size: 1.2em;
 }
+
+/* Flash */
+#flash {
+  display: none;
+  position: fixed;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 15px 0;
+  font-weight: 400;
+}

@@ -26,6 +26,8 @@
 
 <body>
 
+	<div id="flash"></div>
+
 	<div id="container">
 
     <header class="cross">
@@ -41,18 +43,20 @@
     <section id="contact">
       <div class="content">
         <h2>За връзка с нас</h2>
-        <form>
+        <form action="contact.php" method="post">
           <label for="firstname">Име</label>
-          <input type="text" id="firstname">
+          <input type="text" name="firstname" id="firstname">
           <label for="lastname">Фамилия</label>
-          <input type="text" id="lastname">
+          <input type="text" name="lastname" id="lastname">
           <label for="email">Email *</label>
-          <input type="email" id="email">
+          <input type="email" name="email" id="email" required>
           <label for="phone">Телефон</label>
-          <input type="number" id="phone">
+          <input type="number" name="phone" id="phone">
+					<label for="object">Object *</label>
+          <input type="text" name="object" id="object" required>
           <label for="message">Съобщение *</label>
-          <textarea rows="10" id="message"></textarea>
-					<input type="submit" class="button" value="Изпрати">
+          <textarea rows="10" name="message" id="message" required></textarea>
+					<input type="submit" class="button" value="Изпрати" name="contact">
         </form>
       </div>
     </section>
@@ -106,5 +110,6 @@
   </footer>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
+	<script type="text/javascript" src="assets/javascripts/contact.js"></script>
 </body>
 </html>
