@@ -1,11 +1,20 @@
 section {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  flex-direction: row;
-  justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 section .content {
   width: 1000px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
 
   margin-top: 30px;

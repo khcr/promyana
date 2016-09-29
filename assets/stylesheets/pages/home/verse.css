@@ -5,7 +5,9 @@ section#verse {
   background-position: center bottom;
   height: 100vh;
   color: #f0f0f0;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section#verse .verse p {

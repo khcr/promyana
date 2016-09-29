@@ -5,7 +5,9 @@ section#story-banner {
   background-position: center;
   background-size: cover;
   background-attachment: fixed;
-  align-items: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 section#story-banner h2 {
