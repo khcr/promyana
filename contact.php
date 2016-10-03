@@ -9,16 +9,16 @@ if (isset($_POST["contact"])) {
 		$object = clean($_POST["object"]);
 		$message = clean($_POST["message"]);
 		if (is_valid($firstname) AND is_valid($lastname) AND is_email($email) AND is_valid($object) and is_valid($phone)) {
-	    $headers	= "From: Contact Promyana <info@promyana.org>\r\n".
+	    $headers	= "From: Promyana <promyana.org@gmail.com>\r\n".
       			      "Reply-To: ".$email."\r\n".
 			  		      "MIME-Version: 1.0\r\n".
 			  		      "Content-type: text/plain; charset=UTF-8\r\n";
       $content = "Firstname: ".$firstname."\r\n".
                  "Lastname: ".$lastname."\r\n".
                  "Email: ".$email."\r\n".
-                 "Phone: ".$phone."\r\n\r\n------------".$message;
+                 "Phone: ".$phone."\r\n\r\n------------\r\n\r\n".$message;
 
-   	  mail("kocher.ke@gmail.com", $object, $content, $headers);
+   	  mail("promyana.org@gmail.com", $object, $content, $headers);
         $success = true;
     	}
 	}
