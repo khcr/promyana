@@ -22,9 +22,13 @@
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="msapplication-TileImage" content="assets/images/favicon/ms-icon-144x144.png">
   <meta name="theme-color" content="#ffffff">
+
+  <script type="text/javascript" src="vendor/javascripts/jquery.min.js"></script>
+  <script type="text/javascript" src="vendor/javascripts/URI.js"></script>
+  <script type="text/javascript" src="vendor/javascripts/jquery.localize.js"></script>
 </head>
 
-<body>
+<body data-i18n="index">
 
   <div id="container">
 
@@ -37,20 +41,28 @@
         <a href="contact.html">Контакти</a>
 				<a href="donation.html">Помoгни</a>
       </nav>
+      <div class="flags">
+        <img data-lang="bg" src="assets/images/icon/bg.png">
+        <img data-lang="en" src="assets/images/icon/en.png">
+      </div>
     </header>
 
     <!-- Banner -->
     <section id="home" class="index">
-      <div class="banner"><h1>Промяна</h1><a href="#motto" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
+      <div class="banner"><h1 data-localize="title">Промяна</h1><a href="#motto" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
       <header>
         <div class="logo"></div>
+        <div class="flags">
+					<img data-lang="bg" src="assets/images/icon/bg.png">
+      		<img data-lang="en" src="assets/images/icon/en.png">
+				</div>
         <nav>
-          <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-          <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-          <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-          <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
+          <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+          <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+          <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+          <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
         </nav>
-        <a href="donation.html" class="button donate">Помoгни</a>
+        <a href="donation.html" class="button donate"><span data-localize="header.donation">Помoгни</a>
       </header>
     </section>
 
@@ -103,6 +115,7 @@
     </div>
   </footer>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
 </body>
 </html>

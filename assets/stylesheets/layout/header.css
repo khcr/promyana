@@ -71,6 +71,11 @@ header .donate:hover {
   color: #f0f0f0;
 }
 
+header .flags img {
+  cursor: pointer;
+  padding: 0 5px;
+}
+
 /* Mobile */
 
 @media (max-width: 600px) {
