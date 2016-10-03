@@ -4,7 +4,8 @@ var uri = new URI(window.location.href);
 var locale = uri.search(true).locale;
 var file = document.body.dataset.i18n;
 
-if(locale !== undefined) { $localized.localize(file, { pathPrefix: ("./locales/" + locale), language: locale }); };
+var opts = { pathPrefix: ("./locales/" + locale), language: locale };
+if(locale !== undefined) { $localized.localize(file, opts).localize("header", opts).localize("footer", opts); };
 
 document.onclick = function(e) {
   var locale = e.target.dataset.lang;

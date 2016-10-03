@@ -14,6 +14,8 @@ header {
       -ms-flex-align: center;
           align-items: center;
   border-left: 1px solid #BABABA;
+  -ms-flex-preferred-size: 120px;
+      flex-basis: 120px;
 }
 
 header nav {

@@ -1,10 +1,12 @@
 {
   "title": "Promyana",
-  "header": {
-    "home": "Home",
-    "about": "About",
-    "stories": "Stories",
-    "contact": "Contact",
-    "donation": "Donation"
+  "motto": {
+    "content": "Everone deserve dignity",
+    "button": "Learn more about us"
+  },
+  "verse": {
+    "content": "So in everything, do to others what you would have them do to you, for this sums up the Law and the Prophets.",
+    "source": "The Bible, Mathew 7:12",
+    "button": "Discover our stories"
   }
 }
