@@ -1,0 +1,13 @@
+{
+  "title": "Stories",
+  "beginning": "The beginning",
+  "history": "Lorem",
+  "marin": {
+    "title": "Marin",
+    "content": "Lorem"
+  },
+  "elena": {
+    "title": "Elena",
+    "content": "Lorem"
+  }
+}

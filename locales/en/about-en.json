@@ -1,0 +1,23 @@
+{
+  "title": "About us",
+  "mission": {
+    "title": "Missions",
+    "p": "Lorem"
+  },
+  "conditions": {
+    "title": "Conditions",
+    "hangs": "Lorem",
+    "li-1": "",
+    "li-2": "",
+    "li-3": "",
+    "li-4": "",
+    "li-5": ""
+  },
+  "services": {
+    "title": "Services",
+    "bed": "A confortable bed",
+    "shower": "A warm shower",
+    "food": "Food",
+    "washing": "Clean clothes"
+  }
+}

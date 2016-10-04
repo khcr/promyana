@@ -28,7 +28,7 @@
   <script type="text/javascript" src="vendor/javascripts/jquery.localize.js"></script>
 </head>
 
-<body>
+<body data-i18n="contact">
 
 	<div id="flash"></div>
 
@@ -36,31 +36,35 @@
 
     <header class="cross">
       <nav>
-        <a href="index.html">Начало</a>
-        <a href="about.html">За нас</a>
-        <a href="stories.html">Истории</a>
-        <a href="contact.html">Контакти</a>
-				<a href="donation.html">Помoгни</a>
+				<a href="index.html" data-localize="header.home">Начало</a>
+        <a href="about.html" data-localize="header.about">За нас</a>
+        <a href="stories.html" data-localize="header.stories">Истории</a>
+        <a href="contact.html" data-localize="header.contact">Контакти</a>
+				<a href="donation.html" data-localize="header.donation">Помoгни</a>
       </nav>
+			<div class="flags">
+        <img data-lang="bg" src="assets/images/icon/bg.png">
+        <img data-lang="en" src="assets/images/icon/en.png">
+      </div>
     </header>
 
     <section id="contact">
       <div class="content">
-        <h2>За връзка с нас</h2>
+        <h2 data-localize="form.title">За връзка с нас</h2>
         <form action="contact.php" method="post">
-          <label for="firstname">Име</label>
+          <label for="firstname" data-localize="form.firstname">Име</label>
           <input type="text" name="firstname" id="firstname">
-          <label for="lastname">Фамилия</label>
+          <label for="lastname" data-localize="form.lastname">Фамилия</label>
           <input type="text" name="lastname" id="lastname">
-          <label for="email">Email *</label>
+          <label for="email" data-localize="form.email">Email *</label>
           <input type="email" name="email" id="email" required>
-          <label for="phone">Телефон</label>
+          <label for="phone" data-localize="form.phone">Телефон</label>
           <input type="text" name="phone" id="phone">
-					<label for="object">Относно *</label>
+					<label for="object" data-localize="form.object">Относно *</label>
           <input type="text" name="object" id="object" required>
-          <label for="message">Съобщение *</label>
+          <label for="message" data-localize="form.message">Съобщение *</label>
           <textarea rows="10" name="message" id="message" required></textarea>
-					<input type="submit" class="button" value="Изпрати" name="contact">
+					<button type="submit" class="button" name="contact" data-localize="form.submit">Изпрати</button>
         </form>
       </div>
     </section>
@@ -68,8 +72,8 @@
     <section id="map">
       <div class="content">
         <div class="column">
-          <h2>Контакти</h2>
-          <p class="newline">
+          <h2 data-localize="contact.title">Контакти</h2>
+          <p class="newline" data-localize="contact.content">
             Център „Промяна“
             ул. Иван Вазов 13А
             5100 Горна Оряховица
@@ -84,38 +88,38 @@
 	</div>
 
 	<!-- Footer -->
-  <footer>
+	<footer>
     <div class="content">
       <div class="columns">
         <div class="column">
           <div class="logo"></div>
           <img src="assets/images/icon/book.png">
-          <p>
+          <p data-localize="footer.adress">
             ул. Иван Вазов 13А<br>
             5100 Горна Оряховица<br>
             тел. 0878 777 633
           </p>
         </div>
         <div class="column">
-          <h3>Карта на сайта</h3>
+          <h3 data-localize="footer.sitemap">Карта на сайта</h3>
           <div class="sitemap">
-            <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-            <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-            <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-            <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
-            <a href="donation.html"><img src="assets/images/icon/next-red.png"> Помoгни</a>
+            <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+            <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+            <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+            <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
+            <a href="donation.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.donation">Помoгни</span></a>
           </div>
         </div>
       </div>
     </div>
     <div class="arrow">
-      <a data-scroll href="#contact"><img src="assets/images/icon/arrows-red.png"></a>
+      <a data-scroll href="#home"><img src="assets/images/icon/arrows-red.png"></a>
     </div>
   </footer>
 
-	<script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascripts/functions.js"></script>
+  <script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
-	<script type="text/javascript" src="assets/javascripts/contact.js"></script>
 </body>
 </html>

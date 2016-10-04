@@ -43,7 +43,7 @@ section#contact form input {
   height: 30px;
 }
 
-section#contact form input[type=submit] {
+section#contact form button[type=submit] {
   height: inherit;
   width: 40%;
   -ms-flex-item-align: center;

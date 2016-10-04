@@ -1,5 +1,21 @@
 /* Crossheader */
 
+header.cross {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal !important;
+  -webkit-box-direction: normal !important;
+      -ms-flex-direction: row !important;
+          flex-direction: row !important;
+}
+
+header.cross .flags {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 header.cross nav {
   width: 100%;
   -webkit-box-orient: horizontal;
@@ -26,5 +42,14 @@ header.cross.mobile {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
+  }
+}
+
+@media (max-width: 700px) {
+  header.cross {
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
   }
 }

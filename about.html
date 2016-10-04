@@ -28,49 +28,53 @@
   <script type="text/javascript" src="vendor/javascripts/jquery.localize.js"></script>
 </head>
 
-<body>
+<body data-i18n="about">
 	<div id="container">
 
 		<!-- Mobile header !-->
     <header class="cross mobile">
       <nav>
-        <a href="index.html">Начало</a>
-        <a href="about.html">За нас</a>
-        <a href="stories.html">Истории</a>
-        <a href="contact.html">Контакти</a>
-				<a href="donation.html">Помoгни</a>
+        <a href="index.html" data-localize="header.home">Начало</a>
+        <a href="about.html" data-localize="header.about">За нас</a>
+        <a href="stories.html" data-localize="header.stories">Истории</a>
+        <a href="contact.html" data-localize="header.contact">Контакти</a>
+				<a href="donation.html" data-localize="header.donation">Помoгни</a>
       </nav>
+      <div class="flags">
+        <img data-lang="bg" src="assets/images/icon/bg.png">
+        <img data-lang="en" src="assets/images/icon/en.png">
+      </div>
     </header>
 
-		<!-- Banner -->
+    <!-- Banner -->
     <section id="home" class="about">
-      <div class="banner"><h1>За нас</h1><a href="#aboutus" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
+      <div class="banner"><h1 data-localize="title">За нас</h1><a href="#aboutus" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
       <header>
         <div class="logo"></div>
-				<div class="flags">
+        <div class="flags">
 					<img data-lang="bg" src="assets/images/icon/bg.png">
       		<img data-lang="en" src="assets/images/icon/en.png">
 				</div>
         <nav>
-          <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-          <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-          <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-          <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
+          <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+          <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+          <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+          <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
         </nav>
-        <a href="contact.html#donation" class="button donate">Помигни</a>
+        <a href="donation.html" class="button donate"><span data-localize="header.donation">Помoгни</a>
       </header>
     </section>
 
 		<section id="aboutus" class="caption second">
-			<p>За нас</p>
+			<p data-localize="title">За нас</p>
 		</section>
 
 		<section id="mission" class="plain">
 			<div class="content">
-				<h2>Нашата мисия</h2>
+				<h2 data-localize="mission.title">Нашата мисия</h2>
 				<div class="columns">
 					<div class="illustration"><img src="assets/images/layout/about/homeless_people.jpg"></div>
-					<p>
+					<p data-localize="mission.p">
 						Независимо от своето минало всеки е на първо място човек и заслужава другите да се отнасят към него с нужното достойнство. Повечето от тези хора са загубили близки, били са измамени, в следствие на което изпадат в зависимости. Склонни са да извършат престъпление, само и само, за да се нахранят. Следвайки примера на Господ Иисус Христос ние сме готови да протегнем ръка на всеки, защото вярваме, че промяната е възможна. Винаги има още един шанс. Център „Промяна” не е последна спирка за никого, но в повечето случаи се оказва като един трамплин. Има хора, които благодарение на Божията намеса в живота си, са успели да излязат от затруднената ситуация, да скъсат със зависимостта, да намерят своето място в обществото и дори да създадат семейство. Усилията си заслужават!
 					</p>
 				</div>
@@ -79,16 +83,16 @@
 
 		<section id="conditions" class="plain">
 			<div class="content">
-				<h2>Условия за приемане</h2>
+				<h2 data-localize="conditions.title">Условия за приемане</h2>
 				<div class="columns">
 					<div class="column">
-						<p class="hangs">В център „Промяна” се приемат хора:</p>
+						<p class="hangs" data-localize="conditions.hangs">В център „Промяна” се приемат хора:</p>
 						<ul>
-							<li>без дом</li>
-							<li>с ниски доходи</li>
-							<li>на възраст над 18г. (пълнолетни)</li>
-							<li>психически адекватни</li>
-							<li>в стабилно здравословно състояние, което не изисква 	постоянно 	медицинско наблюдение и грижи</li>
+							<li data-localize="conditions.li-1">без дом</li>
+							<li data-localize="conditions.li-2">с ниски доходи</li>
+							<li data-localize="conditions.li-3">на възраст над 18г. (пълнолетни)</li>
+							<li data-localize="conditions.li-4">психически адекватни</li>
+							<li data-localize="conditions.li-5">в стабилно здравословно състояние, което не изисква постоянно медицинско наблюдение и грижи</li>
 						</ul>
 					</div>
 					<div class="column">
@@ -99,41 +103,41 @@
 		</section>
 
 		<section class="caption">
-			<p>Предлагани услуги</p>
+			<p data-localize="services.title">Предлагани услуги</p>
 		</section>
 
 		<section id="services" class="plain">
 			<div class="content">
-				<div class="sleep"><div class="text"><p>Спокоен сън</p></div></div>
-				<div class="shower"><div class="text"><p>Топъл душ</p></div></div>
-				<div class="food"><div class="text"><p>Вкусна храна</p></div></div>
-				<div class="washing"><div class="text"><p>Чисти дрехи</p></div></div>
+				<div class="sleep"><div class="text"><p data-localize="services.bed">Спокоен сън</p></div></div>
+				<div class="shower"><div class="text"><p data-localize="services.shower">Топъл душ</p></div></div>
+				<div class="food"><div class="text"><p data-localize="services.food">Вкусна храна</p></div></div>
+				<div class="washing"><div class="text"><p data-localize="services.washing">Чисти дрехи</p></div></div>
 			</div>
 		</section>
 
 	</div>
 
 	<!-- Footer -->
-  <footer>
+	<footer>
     <div class="content">
       <div class="columns">
         <div class="column">
           <div class="logo"></div>
           <img src="assets/images/icon/book.png">
-          <p>
+          <p data-localize="footer.adress">
             ул. Иван Вазов 13А<br>
             5100 Горна Оряховица<br>
             тел. 0878 777 633
           </p>
         </div>
         <div class="column">
-          <h3>Карта на сайта</h3>
+          <h3 data-localize="footer.sitemap">Карта на сайта</h3>
           <div class="sitemap">
-            <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-            <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-            <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-            <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
-            <a href="donation.html"><img src="assets/images/icon/next-red.png"> Помoгни</a>
+            <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+            <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+            <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+            <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
+            <a href="donation.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.donation">Помoгни</span></a>
           </div>
         </div>
       </div>
@@ -143,8 +147,9 @@
     </div>
   </footer>
 
-	<script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascripts/functions.js"></script>
+  <script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+{
+  "form": {
+    "title": "Contact",
+    "firstname": "Firstname",
+    "lastname": "Lastname",
+    "phone": "Phone number",
+    "email": "Email",
+    "object": "Object",
+    "message": "Message",
+    "submit": "Send"
+  },
+  "contact": {
+    "title": "Contact",
+    "content": "Center „Promyana“\nул. Иван Вазов 13А\n5100 Gorna Oryahovitsa\nTel. 0878 777 633"
+  }
+}

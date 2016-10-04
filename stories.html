@@ -28,42 +28,50 @@
   <script type="text/javascript" src="vendor/javascripts/jquery.localize.js"></script>
 </head>
 
-<body>
+<body data-i18n="stories">
 	<div id="container">
 
 		<!-- Mobile header !-->
     <header class="cross mobile">
       <nav>
-        <a href="index.html">Начало</a>
-        <a href="about.html">За нас</a>
-        <a href="stories.html">Истории</a>
-        <a href="contact.html">Контакти</a>
-				<a href="donation.html">Помoгни</a>
+        <a href="index.html" data-localize="header.home">Начало</a>
+        <a href="about.html" data-localize="header.about">За нас</a>
+        <a href="stories.html" data-localize="header.stories">Истории</a>
+        <a href="contact.html" data-localize="header.contact">Контакти</a>
+				<a href="donation.html" data-localize="header.donation">Помoгни</a>
       </nav>
+      <div class="flags">
+        <img data-lang="bg" src="assets/images/icon/bg.png">
+        <img data-lang="en" src="assets/images/icon/en.png">
+      </div>
     </header>
 
-		<!-- Banner -->
+    <!-- Banner -->
     <section id="home" class="stories">
-      <div class="banner"><h1>Истории</h1><a href="#beginning" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
+      <div class="banner"><h1 data-localize="title">Истории</h1><a href="#beginning" data-scroll><img src="assets/images/icon/arrows.png"></a></div>
       <header>
         <div class="logo"></div>
+        <div class="flags">
+					<img data-lang="bg" src="assets/images/icon/bg.png">
+      		<img data-lang="en" src="assets/images/icon/en.png">
+				</div>
         <nav>
-          <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-          <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-          <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-          <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
+          <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+          <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+          <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+          <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
         </nav>
-        <a href="contact.html#donation" class="button donate">Помoгни</a>
+        <a href="donation.html" class="button donate"><span data-localize="header.donation">Помoгни</a>
       </header>
     </section>
 
 		<section id="beginning" class="caption second">
-			<p>Как започна всичко?</p>
+			<p data-localize="beginning">Как започна всичко?</p>
 		</section>
 
 		<section id="history" class="plain">
 			<div class="content">
-				<p>
+				<p data-localize="history">
 					Точно на Бъдни вечер 2011 бяха приютени първите хора без дом. На Алфа курсовете, които се провеждат редовно в Евангелската църква в Горна Оряховица, идваха хора, които изглеждаха добре облечени, държаха се прилично и никой дори и не предполагаше, че те нямат, къде да живеят. По време на дискусиите в малките групи, след като вече всички се бяха опознали, стана ясно, че тези хора живеят на улицата, че нямат достъп до течаща вода, нямат легло, отопление, подслон и т. н. Те разказваха, как са били мамени и как после самите те започват да крадат и лъжат, за да оцеляват. А през студените зимни вечери след като Алфа курсът свършеше, ние ги питахме: „Къде отиваш сега?” и получавахме отговора: „На улицата, аз нямам дом. Добре поне, че сега не е чак толкова студено”. Поглеждахме термометъра и той показваше -5 градуса. Ние се прибирахме в топлите си апартаменти, лягахме в меките си легла, пиехме сгряващ чай, но нощем продължавахме да мислим за тях... Когато научихме, че много от тези млади хора продават телата си на мъже и жени за жълти стотинки или дори без пари, само и само, за да не замръзнат навън, а да бъдат прибрани на топло, ние осъзнахме, че спешно трябва да предприемем нещо.
 				</p>
 				<video controls>
@@ -74,7 +82,7 @@
 		</section>
 
 		<section id="story-banner">
-      <h2>Истории</h2>
+      <h2 data-localize="title">Истории</h2>
 		</section>
 
     <section id="stories">
@@ -87,16 +95,16 @@
             </video>
           </div>
           <div class="column text">
-            <h3>Марин от Велико Търново</h3>
-            <p>
+            <h3 data-localize="marin.title">Марин от Велико Търново</h3>
+            <p data-localize="marin.content">
               Марин живее в дупка под земята, в която се крие от студа. Животът там не е никак приятен. Поради въшките и занемарения му вид навсякъде му отказват помощ. Няма лична карта и смята, че за него никога няма да се намери място, на което някой да е готов да се погрижи за него. Решава да намери начин да влезе в затвора, за да оцелее. Един ден Румен Бахов го намира в дупката, извежда го от нея и го довежда в център „Промяна“. За нас няма причина да му откажем помощ, защото вярваме, че промяната е възможна за всеки. Следва поредица от няколко репортажа на „Пълен абсурд“. Вижте тук един от тях.
             </p>
           </div>
         </div>
         <div class="columns">
 					<div class="column text">
-            <h3>Кина от Елена</h3>
-            <p>
+            <h3 data-localize="elena.title">Кина от Елена</h3>
+            <p data-localize="elena.content">
               Всичко в живота й започва толкова нормално. Първо работи като шивачка. По-късно завършва начална педагогика и става детска учителка в родния си град Елена. Омъжва се и има три деца. Бракът се разтрогва и тя заживява с друг мъж. Става майка на още две деца. По-късно Кина става жертва на системно домашно насилие. Мъжът й се пропива и започва да я бие. Често й нанася удари по главата. Според лекарите вследствие на побоя тя загубва разума си. При пиянска свада мъжът е убит. Тъй като Кина няма брак с него, изведнъж тя се озовава на улицата и без дом.
             </p>
           </div>
@@ -113,26 +121,26 @@
 	</div>
 
 	<!-- Footer -->
-  <footer>
+	<footer>
     <div class="content">
       <div class="columns">
         <div class="column">
           <div class="logo"></div>
           <img src="assets/images/icon/book.png">
-          <p>
+          <p data-localize="footer.adress">
             ул. Иван Вазов 13А<br>
             5100 Горна Оряховица<br>
             тел. 0878 777 633
           </p>
         </div>
         <div class="column">
-          <h3>Карта на сайта</h3>
+          <h3 data-localize="footer.sitemap">Карта на сайта</h3>
           <div class="sitemap">
-            <a href="index.html"><img src="assets/images/icon/next-red.png"> Начало</a>
-            <a href="about.html"><img src="assets/images/icon/next-red.png"> За нас</a>
-            <a href="stories.html"><img src="assets/images/icon/next-red.png"> Истории</a>
-            <a href="contact.html"><img src="assets/images/icon/next-red.png"> Контакти</a>
-            <a href="donation.html"><img src="assets/images/icon/next-red.png"> Помoгни</a>
+            <a href="index.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.home">Начало</span></a>
+            <a href="about.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.about">За нас</span></a>
+            <a href="stories.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.stories">Истории</span></a>
+            <a href="contact.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.contact">Контакти</span></a>
+            <a href="donation.html"><img src="assets/images/icon/next-red.png"> <span data-localize="header.donation">Помoгни</span></a>
           </div>
         </div>
       </div>
@@ -142,8 +150,9 @@
     </div>
   </footer>
 
-	<script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="vendor/javascripts/smooth-scroll.min.js"></script>
+  <script type="text/javascript" src="assets/javascripts/functions.js"></script>
+  <script type="text/javascript" src="assets/javascripts/localization.js"></script>
   <script type="text/javascript" src="assets/javascripts/scroll.js"></script>
 </body>
 </html>
